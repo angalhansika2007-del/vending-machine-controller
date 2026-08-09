@@ -1,0 +1,36 @@
+```text
+=========================================
+ VENDING MACHINE CONTROLLER SIMULATION
+=========================================
+
+Product Price = ₹15
+Accepted Coins = ₹5 and ₹10
+
+TEST 1: ₹5 + ₹5 + ₹5
+PASS: Product dispensed
+Expected: dispense = 1, change5 = 0
+
+TEST 2: ₹10 + ₹5
+PASS: Product dispensed
+Expected: dispense = 1, change5 = 0
+
+TEST 3: ₹5 + ₹10
+PASS: Product dispensed
+Expected: dispense = 1, change5 = 0
+
+TEST 4: ₹10 + ₹10
+PASS: Product dispensed with ₹5 change
+Expected: dispense = 1, change5 = 1
+
+TEST 5: ₹5 only
+PASS: Product not dispensed
+Expected: dispense = 0, change5 = 0
+
+TEST 6: ₹10 only
+PASS: Product not dispensed
+Expected: dispense = 0, change5 = 0
+
+=========================================
+ All test cases completed
+=========================================
+```
